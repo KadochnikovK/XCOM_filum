@@ -1869,6 +1869,9 @@ a {
   gap: var(--space-md);
   width: 100%;
   overflow: hidden;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 .translation__photo {
   order: 3;
@@ -1880,6 +1883,7 @@ a {
 .translation__info {
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: var(--space-md);
 }
 @media (min-width: 980px) {

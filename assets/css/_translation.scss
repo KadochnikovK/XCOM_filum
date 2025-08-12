@@ -40,6 +40,9 @@
         gap: var(--space-md);
         width: 100%;
         overflow: hidden;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
     }
 
     &__photo {
@@ -56,6 +59,7 @@
     &__info {
         display: flex;
         flex-direction: column;
+        align-items: center;
         gap: var(--space-md);
 
         @media (min-width: 980px) {
