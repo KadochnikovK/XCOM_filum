@@ -1885,6 +1885,7 @@ a {
   flex-direction: column;
   align-items: center;
   gap: var(--space-md);
+  margin-bottom: auto;
 }
 @media (min-width: 980px) {
   .translation__info {
@@ -1942,9 +1943,8 @@ a {
     gap: var(--space-2xl);
   }
   .translation__photo {
-    width: 10vw;
     max-width: 600px;
-    width: auto;
+    width: 50vw;
     transform: none;
     left: 3%;
     bottom: 0;
