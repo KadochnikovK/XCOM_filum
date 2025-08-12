@@ -527,7 +527,6 @@ a {
   align-items: center;
   font-family: "Second";
   font-weight: 500;
-  gap: var(--space-md);
   font-size: 48px;
 }
 .offer__description--column {
@@ -583,7 +582,6 @@ a {
   }
   .offer__description {
     font-size: 64px;
-    gap: var(--space-xl);
   }
   .offer__description--small {
     font-size: var(--fs-md);

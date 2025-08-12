@@ -69,7 +69,7 @@
         align-items: center;
         font-family: 'Second';
         font-weight: 500;
-        gap: var(--space-md);
+        // gap: var(--space-md);
         font-size: 48px;
 
         &--column {
@@ -140,7 +140,7 @@
 
         &__description {
             font-size: 64px;
-            gap: var(--space-xl);
+            // gap: var(--space-xl);
 
             &--small {
                 font-size: var(--fs-md);
