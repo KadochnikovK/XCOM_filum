@@ -1,0 +1,131 @@
+.conditions {
+    &__content {
+        display: flex;
+        flex-direction: column;
+        gap: var(--space-2xl);
+    }
+
+    &__notice {
+        display: flex;
+        align-items: center;
+        gap: var(--space-md);
+        font-family: 'Second';
+        font-size: var(--fs-sm);
+        color: var(--color-white);
+        padding-left: 20px;
+        border-left: 1px solid var(--color-white);
+
+        @media (min-width: 640px) {
+            font-size: var(--fs-lg);
+        }
+
+        @media (min-width: 1200px) {
+            font-size: var(--fs-lg);
+        }
+    }
+
+    &__steps {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        // align-items: center;
+
+        @media (min-width: 840px) {
+            // flex-direction: row;
+        }
+    }
+
+    &__step {
+        flex: 1;
+        display: flex;
+        height: 100%;
+        /* Добавлено */
+        height: max-content;
+        gap: 14px;
+        width: 100%;
+        // align-items: center;
+        border-radius: 14px;
+        // border: 1px solid var(--color-orange);
+        // padding: var(--space-xl);
+        position: relative;
+        // background-color: rgba(0, 0, 0, 0.3);
+
+
+        @media (min-width: 640px) {
+            height: auto;
+            gap: 80px;
+        }
+    }
+
+    &__connector {
+        width: 3px;
+        height: 30px;
+        background: var(--gradient-blue);
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: 25px;
+
+        @media (min-width: 640px) {
+            // height: 1px;
+            height: 70px;
+            width: 8px;
+            margin-left: 100px;
+
+        }
+
+        @media (min-width: 1200px) {
+            // width: 60px;
+            height: 110px;
+            margin-left: 120px;
+
+        }
+    }
+
+    &__number {
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 1;
+        // margin-bottom: var(--space-md);
+
+        @media (min-width: 640px) {
+            font-size: 170px;
+        }
+
+        @media (min-width: 1200px) {
+            font-size: 200px;
+        }
+    }
+
+    &__text {
+        font-family: 'Second';
+        font-size: 16px;
+        display: flex;
+        align-items: center;
+        // text-align: center;
+        // color: var(--color-white);
+        background: var(--gradient-blue);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+
+        @media (min-width: 640px) {
+            font-size: 40px;
+        }
+
+        @media (min-width: 1200px) {
+            font-size: 64px;
+        }
+    }
+
+    &__button-wrapper {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .gradient-text {
+        background: var(--gradient-blue);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+}
